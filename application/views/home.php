@@ -10,11 +10,11 @@
         <![endif]-->
     <title>Free Multipurpose Template : RUMA</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONTAWESOME STYLE CSS -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet" />
     <!-- CUSTOM STYLE CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" />    
+    <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet" />    
     <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
@@ -85,8 +85,9 @@
     <h1><center><strong>PEMROGRAMAN KOMPUTER</strong></center></h1>
         <div class="row text-center pad-row">
                 <div class="col-md-4  col-sm-4">
-	                <i class="fa fa-desktop fa-5x"></i>
-	                <h4> <strong>Bahasa Pemrograman</strong> </h4>
+	               <div class="panel panel-default">
+	                <h4 class="panel-heading"><i class="fa fa-desktop fa-1x"></i> <strong>Bahasa Pemrograman</strong> </h4>
+                    <div class="panel-body">
 	                <div class="list-group">
 					  <a href="#" class="list-group-item"><span class="badge">14</span>C</a>
 					  <a href="#" class="list-group-item"><span class="badge">14</span>LISP</a>
@@ -97,67 +98,76 @@
 					  <a href="#" class="list-group-item"><span class="badge">14</span>PHP</a>
 					  <a href="#" class="list-group-item"><span class="badge">14</span>SQL</a>
 					</div>
-	                <a href="#" class="btn btn-primary" >Read Details</a>    
+                    </div>
+	               </div>   
+                <!--</div>
+                <div class="col-md-4  col-sm-4">-->
+                    <div class="panel panel-default">   
+                <h4 class="panel-heading"><i class="fa fa-plus fa-1x"></i> <strong>Android<small>Step by step</small></strong> </h4>
+                <div class="panel-body">
+                <div class="list-group">
+                  <a href="#" class="list-group-item"><span class="badge">14</span>Pengetahuan Dasar</a>
+                  <a href="#" class="list-group-item"><span class="badge">14</span>Dapibus ac facilisis in</a>
+                  <a href="#" class="list-group-item"><span class="badge">14</span>Morbi leo risus</a>
+                  <a href="#" class="list-group-item"><span class="badge">14</span>Porta ac consectetur ac</a>
+                  <a href="#" class="list-group-item"><span class="badge">14</span>Ayo Mulai Membuat</a>
+                </div>
+                </div>
+                </div>
                 </div>
                 <div class="col-md-4  col-sm-4">
-                    <i class="fa fa-edit fa-5x"></i>
-                    <h4> <strong>Teknologi Web</strong> </h4>
-                    <div class="list-group">
-					  <a href="#" class="list-group-item"><span class="badge">14</span>WEBSERVICE</a>
-					  <a href="#" class="list-group-item"><span class="badge">14</span>WEBSOCKET</a>
-					  <a href="#" class="list-group-item"><span class="badge">14</span>Server Send Event (SSE)</a>
-					  <a href="#" class="list-group-item"><span class="badge">14</span>Google Firebase</a>
-					</div>
-                    <a href="#" class="btn btn-primary" >Read Details</a>    
-                </div>
-                <div class="col-md-4  col-sm-4">
-                    <i class="fa fa-edit fa-5x"></i>
-                    <h4> <strong>Perkembangan Web</strong> </h4>
+                   <div class="panel panel-default"> 
+                    <h4 class="panel-heading"><i class="fa fa-edit fa-1x"></i> <strong>Perkembangan Web</strong> </h4>
+                    <div class="panel-body">
                     <div class="list-group">
 					  <a href="#" class="list-group-item"><span class="badge">14</span>Belajar Bootstrap</a>
 					  <a href="#" class="list-group-item"><span class="badge">14</span>Belajar Codeigniter</a>
 					  <a href="#" class="list-group-item"><span class="badge">14</span>Belajar JQuery</a>
 					  <a href="#" class="list-group-item"><span class="badge">14</span>Belajar AngularJs</a>
 					</div>
-                    <a href="#" class="btn btn-primary" >Read Details</a>    
+                    </div>
+                    </div>
+                   <div class="panel panel-default"> 
+                    <h4 class="panel-heading"><i class="fa fa-bomb fa-1x"></i> <strong>Mulai Membuat Aplikasi</strong> </h4>
+                    <div class="panel-body">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item"><span class="badge">14</span><strong>WEB</strong><small>Step by step</small></a>
+                      <a href="#" class="list-group-item"><span class="badge">14</span><strong>Android</strong><small>Step by step</small></a>
+                      <a href="#" class="list-group-item"><span class="badge">14</span><strong>Dekstop</strong><small>Step by step</small></a>
+                    </div>
+                    </div>
+                </div>
+
+                </div>
+                <div class="col-md-4  col-sm-4">
+                <div class="panel panel-default">
+                    <h4 class="panel-heading"><i class="fa fa-edit fa-1x"></i> <strong>Teknologi Web</strong> </h4>
+                    <div class="panel-body">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item"><span class="badge">14</span>WEBSERVICE</a>
+                      <a href="#" class="list-group-item"><span class="badge">14</span>WEBSOCKET</a>
+                      <a href="#" class="list-group-item"><span class="badge">14</span>Server Send Event (SSE)</a>
+                      <a href="#" class="list-group-item"><span class="badge">14</span>Google Firebase</a>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="panel panel-default">
+                <h4 class="panel-heading"><i class="fa fa-plus  fa-1x"></i> <strong>Dekstop<small>Step by step</small></strong> </h4>
+                <div class="panel-body">
+                <div class="list-group">
+                  <a href="#" class="list-group-item"><span class="badge">14</span>Pengetahuan Dasar</a>
+                  <a href="#" class="list-group-item"><span class="badge">14</span>Dapibus ac facilisis in</a>
+                  <a href="#" class="list-group-item"><span class="badge">14</span>Morbi leo risus</a>
+                  <a href="#" class="list-group-item"><span class="badge">14</span>Porta ac consectetur ac</a>
+                  <a href="#" class="list-group-item"><span class="badge">14</span>Ayo Mulai Membuat</a>
+                </div>
+                </div>
+                </div>
+
                 </div>
             </div>
-        <div class="row text-center pad-row">
-            <div class="col-md-4  col-sm-4">
-                <i class="fa fa-bomb fa-5x"></i>
-                <h4> <strong>Mulai Membuat Aplikasi</strong> </h4>
-            	<div class="list-group">
-				  <a href="#" class="list-group-item"><span class="badge">14</span><strong>WEB</strong><small>Step by step</small></a>
-				  <a href="#" class="list-group-item"><span class="badge">14</span><strong>Android</strong><small>Step by step</small></a>
-				  <a href="#" class="list-group-item"><span class="badge">14</span><strong>Dekstop</strong><small>Step by step</small></a>
-				</div>
-                <a href="#" class="btn btn-primary" >Read Details</a>        
-            </div>
-            <div class="col-md-4  col-sm-4">
-                <i class="fa fa-plus  fa-5x"></i>
-                <h4> <strong>Android<small>Step by step</small></strong> </h4>
-            	<div class="list-group">
-				  <a href="#" class="list-group-item"><span class="badge">14</span>Pengetahuan Dasar</a>
-				  <a href="#" class="list-group-item"><span class="badge">14</span>Dapibus ac facilisis in</a>
-				  <a href="#" class="list-group-item"><span class="badge">14</span>Morbi leo risus</a>
-				  <a href="#" class="list-group-item"><span class="badge">14</span>Porta ac consectetur ac</a>
-				  <a href="#" class="list-group-item"><span class="badge">14</span>Ayo Mulai Membuat</a>
-				</div>
-                <a href="#" class="btn btn-primary" >Read Details</a>    
-            </div>
-            <div class="col-md-4  col-sm-4">
-                <i class="fa fa-plus  fa-5x"></i>
-                <h4> <strong>Dekstop<small>Step by step</small></strong> </h4>
-            	<div class="list-group">
-				  <a href="#" class="list-group-item"><span class="badge">14</span>Pengetahuan Dasar</a>
-				  <a href="#" class="list-group-item"><span class="badge">14</span>Dapibus ac facilisis in</a>
-				  <a href="#" class="list-group-item"><span class="badge">14</span>Morbi leo risus</a>
-				  <a href="#" class="list-group-item"><span class="badge">14</span>Porta ac consectetur ac</a>
-				  <a href="#" class="list-group-item"><span class="badge">14</span>Ayo Mulai Membuat</a>
-				</div>
-                <a href="#" class="btn btn-primary" >Read Details</a>    
-            </div>  
-            </div>
+        
             
         </div>
     </section>
@@ -231,10 +241,10 @@
     <!--/.FOOTER END-->
     <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
     <!-- CORE JQUERY  -->
-    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/jquery-1.10.2.js"></script>
     <!-- BOOTSTRAP SCRIPTS  -->
-    <script src="assets/plugins/bootstrap.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bootstrap.js"></script>
   <!-- CUSTOM SCRIPTS  -->
-    <script src="assets/js/custom.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
 </body>
 </html>
